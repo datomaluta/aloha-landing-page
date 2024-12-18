@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* font-family: "Inter", sans-serif; */
+}
+
+body {
+  min-height: 100vh;
+  background-color: #171a28;
+  color: white;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: local("helvetica"),
+    url("./assets/fonts/helvetica-georgian-ultralight.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: local("helvetica"),
+    url("./assets/fonts/helvetica-georgian-thin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: local("helvetica"),
+    url("./assets/fonts/helvetica-georgian-light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: local("helvetica"),
+    url("./assets/fonts/helvetica-georgian-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: local("helvetica"),
+    url("./assets/fonts/helvetica-georgian-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica";
+  src: local("helvetica"),
+    url("./assets/fonts/helvetica-georgian-heawy.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica-caps";
+  src: local("helvetica"),
+    url("./assets/fonts/helvetica-georgian-caps-light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica-caps";
+  src: local("helvetica"),
+    url("./assets/fonts/helvetica-georgian-caps-medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@layer utilities {
+  .text-border {
+    text-shadow: -3px -3px 0 #ed5652, 3px -3px 0 #ed5652, -3px 3px 0 #ed5652,
+      3px 3px 0 #ed5652;
+  }
+
+  .text-border-sm {
+    text-shadow: -1px -1px 0 #ed5652, 1px -1px 0 #ed5652, -1px 1px 0 #ed5652,
+      1px 1px 0 #ed5652;
+  }
+}

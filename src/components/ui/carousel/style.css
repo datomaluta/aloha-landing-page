@@ -1,0 +1,51 @@
+/* Hide default slick arrows */
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+/* Style custom arrows */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2; /* Ensure it's above the carousel */
+  background-color: #ed5652;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.custom-arrow.next {
+  right: -50px;
+}
+
+.custom-arrow.prev {
+  left: -50px;
+}
+
+@media (max-width: 1024px) {
+  .custom-arrow {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+  .custom-arrow.next {
+    right: -27px;
+  }
+
+  .custom-arrow.prev {
+    left: -27px;
+  }
+}
+
+.slick-dots li button:before {
+  font-size: 12px !important;
+  color: #ed5652 !important;
+  margin-top: 20px;
+}
