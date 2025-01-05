@@ -12,7 +12,7 @@ export const translations = {
     ka: "საკვები ჯილდოები",
   },
   hero_paragraph: {
-    en: "With our app, you’ll collect unique stickers for every interactions, leading you to exciting free treats at your favorite fast-food spots. Join us today and indulge in the delightful rewards that await!",
+    en: "With our app, you’ll collect fun, unique stickers with every visit, unlocking exciting freebies at your favorite fast-food spots! Join us today and dive into the tasty rewards waiting just for you!",
     ka: "აპლიკაციით თქვენ შეაგროვებთ უნიკალურ სტიკერებს ყველა ინტერაქციისთვის, რაც მიგიყვანთ უფასო კერძებამდე თქვენს საყვარელ ფასთფუდ ობიექტებში. შემოგვიერთდით დღეს და მიიღეთ სასიამოვნო ჯილდოები!",
   },
   home: {
@@ -32,13 +32,13 @@ export const translations = {
     ka: "სცადეთ უფასოდ",
   },
   why_should_you_choose_us: {
-    en: "Why should you choose us?",
-    ka: "რატომ უნდა აგვირჩიოთ?",
+    en: "Why Should You Choose Us",
+    ka: "რატომ უნდა აგვირჩიოთ",
   },
 
   why_should_you_choose_us_paragraph: {
-    en: "With our app, you gain access to exclusive dining rewards, personalized offers from nearby restaurants, and a loyalty program that lets you easily collect and redeem points for free treats—making every visit more rewarding!",
-    ka: "ჩვენი აპლიკაციით, თქვენ იღებთ წვდომას ექსკლუზიურ ჯილდოებზე, პერსონალიზებულ შეთავაზებებზე ახლომდებარე რესტორნებიდან და ლოიალობის პროგრამაზე, რომელიც საშუალებას გაძლევთ მარტივად შეაგროვოთ და გამოისყიდოთ ქულები უფასო ულუფებით, რაც ყოველი ვიზიტის უფრო მომგებიანი გახდება!",
+    en: "With Aloha, loyalty is more than a program—it’s an experience. Join us today and see how we’re redefining customer rewards!",
+    ka: "Aloha-სთან ერთგულება უფრო მეტია, ვიდრე პროგრამა - ეს არის გამოცდილება. შემოგვიერთდით დღეს და ნახეთ, როგორ განვსაზღვრავთ მომხმარებლის ჯილდოებს!",
   },
   some_of_the_best_features: {
     en: "Some of the best features",
@@ -57,36 +57,44 @@ export const translations = {
     ka: "მარტივი ლოიალობის პროგრამა",
   },
   easy_loyality_program_paragraph: {
-    en: "Collect stickers with each purchase to redeem free treats and bonuses.",
-    ka: "შეაგრივე სტიკერები ყოველი შესყიდვით და გადაცვალე უფასო საკვებში ან ბონუსებში.",
+    en: "Earn stickers with each purchase to redeem free treats and bonuses.",
+    ka: "შეაგროვე სტიკერები ყოველი შესყიდვით და გადაცვალე უფასო საკვებში ან ბონუსებში.",
   },
   discover_nearby: {
-    en: "Discover nearby",
-    ka: "აღმოაჩინე შენს სიახლოვეს",
+    en: "Play Game",
+    ka: "ითამაშე",
   },
   discover_nearby_paragraph: {
-    en: "Find popular fast-food locations close to you with ease",
-    ka: "იპოვე პოპულარული ფასდფუდ ობიექტები შენთან ახლოს მარტივად",
+    en: "Enjoy free games and win rewards from our partners!",
+    ka: "ისიამოვნეთ უფასო თამაშებით და მოიგეთ ჯილდოები ჩვენი პარტნიორებისგან!",
   },
   quick_redeem_with_qr_code: {
     en: "Quick redeem with QR code",
     ka: "სწრაფი გადაცვლა QR კოდით",
   },
   quick_redeem_with_qr_code_paragraph: {
-    en: "Simply scan to redeem your rewards and enjoy seamless transactions",
-    ka: "უბრალოდ დაასკანირეთ ჯილდოების გამოსასყიდად და ისიამოვნეთ უწყვეტი ტრანზაქციებით",
+    en: "Simply scan the QR code to claim your reward!",
+    ka: "უბრალოდ დაასკანირეთ QR კოდი, რომ მოითხოვოთ თქვენი ჯილდო!",
   },
   how_it_works: {
     en: "How it works",
     ka: "როგორ მუშაობს?",
   },
+  how_it_works_header_1: {
+    en: "Scan The QR Code",
+    ka: "დაასკანერე QR კოდი",
+  },
+  how_it_works_header_2: {
+    en: "Earn Stickers",
+    ka: "შეაგროვე სტიკერები",
+  },
   how_it_works_paragraph_1: {
-    en: "Collect Stickers with QR Scans - Earn stickers by simply scanning the QR code with each purchase, bringing you closer to free treats and exclusive rewards.",
-    ka: "შეაგროვეთ სტიკერები QR სკანირებით - იშოვე სტიკერები QR კოდის უბრალოდ სკანირებით ყოველი შესყიდვით, რაც უფრო ახლოს მოგიყვანს უფასო ტრაქტატებთან და ექსკლუზიურ ჯილდოებთან.",
+    en: "Visit your favorite restaurant, café, or hotel that partners with Aloha. After settling your bill, simply scan the QR code on your receipt using the Aloha app.",
+    ka: "ეწვიეთ თქვენს საყვარელ რესტორანს, კაფეს ან სასტუმროს, რომელიც პარტნიორობს Aloha-სთან. თქვენი ანგარიშის გადახდის შემდეგ, უბრალოდ დაასკანირეთ ქვითარზე QR კოდი Aloha აპლიკაციის გამოყენებით.",
   },
   how_it_works_paragraph_2: {
-    en: "Redeem Your Vouchers Easily - Once you’ve collected enough stickers, exchange them for valuable vouchers and discounts to enjoy even more at your favorite fast-food spots.",
-    ka: "გამოისყიდეთ თქვენი ვაუჩერები მარტივად - როგორც კი შეაგროვებთ საკმარის სტიკერებს, გაცვალეთ ისინი ღირებული ვაუჩერებითა და ფასდაკლებით, რათა კიდევ უფრო მეტი ისიამოვნოთ თქვენს საყვარელ სწრაფი კვების ობიექტებში.",
+    en: "Each scan adds unique stickers or points to your collection. Redeem your stickers and points for exciting bonuses, exclusive discounts, and special offers.",
+    ka: "თითოეული სკანირება ამატებს უნიკალურ სტიკერებს ან წერტილებს თქვენს კოლექციას. გამოისყიდეთ თქვენი სტიკერები და ქულები საინტერესო ბონუსებისთვის, ექსკლუზიური ფასდაკლებისთვის და სპეციალური შეთავაზებებისთვის.",
   },
   scan_qr_code: {
     en: "Scan QR Code",
@@ -281,8 +289,8 @@ export const translations = {
     ka: "ელ-ფოსტა",
   },
   actual_address_street: {
-    en: "Rustaveli Street",
-    ka: "რუსთაველის ქუჩა",
+    en: "12 Aleksidze St",
+    ka: "12 ალექსიძის ქუჩა",
   },
   actual_address_city: {
     en: "Tbilisi, Georgia",
@@ -299,5 +307,101 @@ export const translations = {
   into_fun: {
     en: "into Fun",
     ka: "მხიარულებად",
+  },
+  play_and_win: {
+    en: "Play & Win",
+    ka: "ითამაშე და მოიგე",
+  },
+  play_and_win_paragraph: {
+    en: "Engage in mini-games and challenges to earn extra rewards and unlock exclusive prizes from our partners.",
+    ka: "ჩაერთეთ მინი თამაშებში და გამოწვევებში, რომ მიიღოთ დამატებითი ჯილდოები და ექსკლუზიური პრიზები ჩვენი პარტნიორებისგან.",
+  },
+  invite_friends_paragraph: {
+    en: "Expand your network by inviting friends to unlock more free games for both you and them, boosting your chances to win exciting prizes!",
+    ka: "გააფართოვეთ თქვენი ქსელი მეგობრების მოწვევით, რომ განბლოკონ მეტი უფასო თამაში როგორც თქვენთვის, ასევე მათთვის, რაც გაზრდის საინტერესო პრიზების მოგების შანსებს!",
+  },
+  how_does_aloha_work: {
+    en: "How does Aloha work?",
+    ka: "როგორ მუშაობს ალოჰა?",
+  },
+  how_does_aloha_work_answer: {
+    en: "Using Aloha is simple:",
+    ka: "ალოჰას გამოყენება მარტივია",
+  },
+  how_does_aloha_work_answer_bullet_1: {
+    en: "Visit a partner business and settle your bill",
+    ka: "ეწვიე პარტნიორ ობიექტს და გადაიხადე",
+  },
+  how_does_aloha_work_answer_bullet_2: {
+    en: "Scan the QR code on your receipt using the app",
+    ka: "დაასკანერე QR კოდი აპლიკაციის გამოყენებით",
+  },
+  how_does_aloha_work_answer_bullet_3: {
+    en: "Earn points, stickers, or rewards, and unlock bonuses through mini-games and challenges",
+    ka: "მიიღე ქულები, სტიკერები, სხვა ჯილდოები და დაეუფლე ბონუსებს მინი თამაშებით და გამოწვევებით",
+  },
+  what_can_i_do_with_the_rewards_i_earn: {
+    en: "What can I do with the rewards I earn?",
+    ka: "რა შემიძლია გავაკეთო მიღებული ქულებით?",
+  },
+  what_can_i_do_with_the_rewards_i_earn_answer: {
+    en: "You can redeem your points or stickers for exclusive offers, discounts, or prizes from our partner businesses. The more you collect, the better the rewards!",
+    ka: "თქვენ შეგიძლიათ გამოისყიდოთ თქვენი ქულები ან სტიკერები ექსკლუზიური შეთავაზებებისთვის, ფასდაკლებისთვის ან პრიზებისთვის ჩვენი პარტნიორი ბიზნესებიდან. რაც უფრო მეტს აგროვებთ, მით უკეთესი იქნება ჯილდოები!",
+  },
+  is_aloha_free_to_use: {
+    en: "Is Aloha free to use?",
+    ka: "Aloha-ს გამოყენება უფასოა?",
+  },
+  is_aloha_free_to_use_answer: {
+    en: "Yes, Aloha is completely free for users. You can download the app, start earning rewards, and enjoy the gamified experience without any charges.",
+    ka: "დიახ, Aloha სრულიად უფასოა მომხმარებლებისთვის. შეგიძლიათ ჩამოტვირთოთ აპლიკაცია, დაიწყოთ ჯილდოების გამომუშავება და ისიამოვნოთ გემიფიცირებული გამოცდილებით ყოველგვარი გადასახადის გარეშე.",
+  },
+  how_do_i_invite_friends_and_what_do_i_get: {
+    en: "How do I invite friends, and what do I get?",
+    ka: "როგორ უნდა მოვიწვიო მეგობრები და რას მივიღებ სანაცვლოდ?",
+  },
+  how_do_i_invite_friends_and_what_do_i_get_answer: {
+    en: "You can invite friends directly from the app. When they join, both you and your friend earn free games or bonus points, increasing your chances to win exclusive prizes. It’s a win-win!",
+    ka: "შეგიძლიათ მოიწვიოთ მეგობრები პირდაპირ აპიდან. როდესაც ისინი შეუერთდებიან, თქვენც და თქვენი მეგობარიც მიიღებთ უფასო თამაშებს ან ბონუს ქულებს, რაც ზრდის ექსკლუზიური პრიზების მოგების შანსებს. ეს არის მოგება!",
+  },
+  what_makes_aloha_different_from_other_loyalty_apps: {
+    en: "What makes Aloha different from other loyalty apps?",
+    ka: "რა განასხვავებს ალოჰას სხვა მსგავსი აპლიკაციებისგან?",
+  },
+  what_makes_aloha_different_from_other_loyalty_apps_answer: {
+    en: "Aloha combines gamification, personalized rewards, and interactive challenges to create a fun and engaging loyalty experience. Unlike traditional programs, Aloha offers mini-games, exclusive prizes, and real-time updates, making every visit more exciting.",
+    ka: "Aloha აერთიანებს გემიფიკაციას, პერსონალიზებულ ჯილდოებსა და ინტერაქტიულ გამოწვევებს, რათა შექმნას მხიარული და მიმზიდველი ლოიალობის გამოცდილება. ტრადიციული პროგრამებისგან განსხვავებით, Aloha გთავაზობთ მინი თამაშებს, ექსკლუზიურ პრიზებს და რეალურ დროში განახლებებს, რაც ყოველ ვიზიტს უფრო საინტერესოს ხდის.",
+  },
+  which_businesses_can_i_use_aloha_with: {
+    en: "Which businesses can I use Aloha with?",
+    ka: "რომელ ბიზნესთან შემიძლია Aloha-ს გამოყენება?",
+  },
+  which_businesses_can_i_use_aloha_with_answer: {
+    en: "Aloha partners with a variety of restaurants, cafes, and hotels in the HoReCa sector. You can find a list of participating businesses directly in the app and start earning rewards with every visit.",
+    ka: "Aloha პარტნიორობს სხვადასხვა რესტორანთან, კაფესთან და სასტუმროსთან HoReCa სექტორში. თქვენ შეგიძლიათ იპოვოთ მონაწილე ბიზნესების სია პირდაპირ აპლიკაციაში და დაიწყოთ ჯილდოების გამომუშავება ყოველი ვიზიტით.",
+  },
+  is_my_personal_data_safe_with_aloha: {
+    en: "Is my personal data safe with Aloha?",
+    ka: "ჩემი პერსონალური ინფორმაცია დაცულია?",
+  },
+  is_my_personal_data_safe_with_aloha_answer: {
+    en: "Absolutely! Aloha prioritizes your data privacy and security. We comply with data protection regulations like GDPR, ensuring that your information is encrypted and never shared without your consent.",
+    ka: "აბსოლუტურად! Aloha პრიორიტეტს ანიჭებს თქვენი მონაცემების კონფიდენციალურობას და უსაფრთხოებას. ჩვენ ვიცავთ მონაცემთა დაცვის რეგულაციებს, როგორიცაა GDPR, იმის უზრუნველსაყოფად, რომ თქვენი ინფორმაცია იყოს დაშიფრული და არასოდეს გაზიარდება თქვენი თანხმობის გარეშე.",
+  },
+  temoSophromadze: {
+    en: "Temo Sophromadze",
+    ka: "თემო სოფრომაძე",
+  },
+  lashaSurguladze: {
+    en: "Lasha Surguladze",
+    ka: "ლაშა სურგულაძე",
+  },
+  shotaMartkhoplishvili: {
+    en: "Shota Martkophlishvili",
+    ka: "შოთა მარტყოფლიშვილი",
+  },
+  nutsaZurebiani: {
+    en: "Nutsa Zurebiani",
+    ka: "ნუცა ზურებიანი",
   },
 };

@@ -9,6 +9,7 @@ import DefaultLayout from "../layout/DefaultLayout";
 const Home = () => {
   return (
     <DefaultLayout>
+      {/* <ScrollToTop /> */}
       <Hero />
       <WhyChooseUs carousel />
       <HowItWorks />

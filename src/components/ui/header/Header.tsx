@@ -12,9 +12,9 @@ const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 max-w-[1920px] w-full z-[999] mx-auto bg-secondary bg-opacity-30 backdrop-blur-3xl py-7 md:py-5 2xl:px-6 transition-all">
+      <header className="fixed top-0  w-full z-[999] mx-auto bg-secondary bg-opacity-30 backdrop-blur-3xl py-7 md:py-5 px-32 lg:px-6 transition-all">
         <div className="max-w-[1440px] mx-auto flex items-center justify-between">
-          <Link to={"/"}>
+          <Link onClick={() => window.scrollTo(0, 0)} to={"/"}>
             <img className="h-[51px] md:h-[35px]" src={logo} alt="logo" />
           </Link>
           <nav className="font-normal md:hidden">
@@ -22,7 +22,9 @@ const Header = () => {
               <li>
                 <NavLink
                   className={({ isActive }) =>
-                    isActive ? "text-primary" : "text-white "
+                    isActive
+                      ? "text-primary"
+                      : "text-white hover:text-primary-tint"
                   }
                   to={"/"}
                 >
@@ -32,7 +34,9 @@ const Header = () => {
               <li>
                 <NavLink
                   className={({ isActive }) =>
-                    isActive ? "text-primary" : "text-white"
+                    isActive
+                      ? "text-primary"
+                      : "text-white hover:text-primary-tint"
                   }
                   to={"/about"}
                 >
@@ -52,7 +56,7 @@ const Header = () => {
               <li>
                 <Link
                   to={"/contact"}
-                  className="bg-primary text-white px-8 py-[14px] rounded-[10px] font-medium"
+                  className="bg-primary hover:bg-primary-tint text-white px-8 py-[14px] rounded-[10px] font-medium"
                 >
                   {t("try_for_free")}
                 </Link>

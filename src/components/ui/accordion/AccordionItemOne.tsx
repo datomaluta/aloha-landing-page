@@ -10,7 +10,7 @@ type FaqItem = {
 };
 
 const AccordionItemOne: React.FC<FaqItem> = ({ active, handleToggle, faq }) => {
-  const { header, id, text } = faq;
+  const { header, id, text, bullets } = faq;
   const { t } = useTranslate();
 
   return (
@@ -33,11 +33,21 @@ const AccordionItemOne: React.FC<FaqItem> = ({ active, handleToggle, faq }) => {
       </button>
 
       <div
-        className={`mt-5 sm:mt-3 p-6 sm:p-4 transition-all ${
+        className={`mt-5 sm:mt-3 p-6 sm:p-4 transition-all font-light ${
           active === id ? "block" : "hidden"
         }`}
       >
-        <p className="font-medium ">{t(text)}</p>
+        <p className=" ">{t(text)}</p>
+
+        {bullets && (
+          <ul className="mt-4">
+            {bullets.map((item, index) => (
+              <li className="text-sm mb-2" key={index}>
+                • {t(item)}
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );

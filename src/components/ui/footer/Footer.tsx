@@ -12,9 +12,9 @@ const Footer = () => {
   const { lang } = useSelector((state: RootState) => state.lang);
   const { t } = useTranslate();
   return (
-    <footer className="max-w-[1920px] mx-auto absolute bottom-0 w-full backdrop-blur-3xl bg-secondary bg-opacity-40 text-white ">
+    <footer className="px-32 lg:px-6 mx-auto absolute bottom-0 w-full backdrop-blur-3xl bg-secondary bg-opacity-40 text-white ">
       <div className="relative z-20 ">
-        <div className="max-w-[1440px] mx-auto 2xl:px-6 sm:px-3 z-20 relative py-28 lg:py-20">
+        <div className="max-w-[1440px] mx-auto  z-20 relative py-28 lg:py-20">
           <div className="lg:block hidden mb-8 shrink-0">
             <img className="mt-auto lg:h-[40px]" src={whiteLogo} alt="" />
           </div>
@@ -96,9 +96,13 @@ const Footer = () => {
                 <div className="bg-blue-500 w-max p-2 rounded-full">
                   <FaFacebookF />
                 </div>
-                <div className="bg-blue-500 w-max p-2 rounded-full">
+                <Link
+                  target="_blank"
+                  to={"https://www.linkedin.com/company/aloha-app/"}
+                  className="bg-blue-500 w-max p-2 rounded-full"
+                >
                   <FaLinkedin />
-                </div>
+                </Link>
                 <div className="bg-blue-500 w-max p-2 rounded-full">
                   <BsTwitterX />
                 </div>

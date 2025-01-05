@@ -49,6 +49,8 @@ export default {
       },
     },
     screens: {
+      "big-screen": { min: "2400px" },
+      "3xl": { max: "1700px" },
       "2xl": { max: "1536px" },
       xl: { max: "1279px" },
       lg: { max: "1023px" },

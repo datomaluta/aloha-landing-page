@@ -58,23 +58,23 @@ const PartnersCarousel = () => {
   return (
     <div className="slider-container w-[85%] mx-auto">
       <Slider {...settings}>
-        <div className="!flex justify-center items-center h-[100px] md:h-[70px]">
-          <img className="h-full" src={logo1} alt="" />
+        <div className="!flex justify-center items-center h-[120px] md:h-[70px] hover:scale-[1.3] transition-all cursor-pointer">
+          <img className="h-[70%]" src={logo1} alt="" />
         </div>
-        <div className="!flex justify-center items-center h-[100px] md:h-[70px]">
-          <img className="h-full" src={logo2} alt="" />
+        <div className="!flex justify-center items-center h-[120px] md:h-[70px] hover:scale-[1.3] transition-all cursor-pointer">
+          <img className="h-[70%]" src={logo2} alt="" />
         </div>
-        <div className="!flex justify-center items-center h-[100px] md:h-[70px]">
-          <img className="h-full" src={logo3} alt="" />
+        <div className="!flex justify-center items-center h-[120px] md:h-[70px] hover:scale-[1.3] transition-all cursor-pointer">
+          <img className="h-[70%]" src={logo3} alt="" />
         </div>
-        <div className="!flex justify-center items-center h-[100px] md:h-[70px]">
-          <img className="h-full" src={logo4} alt="" />
+        <div className="!flex justify-center items-center h-[120px] md:h-[70px] hover:scale-[1.3] transition-all cursor-pointer">
+          <img className="h-[70%]" src={logo4} alt="" />
         </div>
-        <div className="!flex justify-center items-center h-[100px] md:h-[70px]">
-          <img className="h-full" src={logo5} alt="" />
+        <div className="!flex justify-center items-center h-[120px] md:h-[70px] hover:scale-[1.3] transition-all cursor-pointer">
+          <img className="h-[70%]" src={logo5} alt="" />
         </div>
-        <div className="!flex justify-center items-center h-[100px] md:h-[70px]">
-          <img className="h-full" src={logo6} alt="" />
+        <div className="!flex justify-center items-center h-[120px] md:h-[70px] hover:scale-[1.3] transition-all cursor-pointer">
+          <img className="h-[70%]" src={logo6} alt="" />
         </div>
       </Slider>
     </div>

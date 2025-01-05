@@ -22,7 +22,7 @@ const Statistics = () => {
         <div className="flex justify-center items-center gap-28 xl:gap-16 sm:gap-5 mt-16 md:mt-6">
           <div className="text-center min-w-[150px] md:min-w-[110px] sm:min-w-0">
             <span className="text-[53px] md:text-[30px] sm:text-[18px] leading-[60px] md:leading-[40px] sm:leading-[30px] mb-2">
-              +<Counter end={300} />
+              +<Counter end={200} />
             </span>
             <div className="flex items-center gap-2 opacity-50 justify-center text-2xl md:text-lg sm:text-sm">
               <IoCloudDownloadOutline />
@@ -34,7 +34,7 @@ const Statistics = () => {
 
           <div className="text-center min-w-[150px] md:min-w-[110px] sm:min-w-0">
             <span className="text-[53px] md:text-[30px] sm:text-[18px] leading-[60px] md:leading-[40px] sm:leading-[30px] mb-2 ">
-              +<Counter end={300} />
+              +<Counter end={480} />
             </span>
             <div className="flex items-center gap-2 opacity-50 justify-center text-2xl md:text-lg sm:text-sm">
               <CiCircleCheck />
@@ -46,7 +46,7 @@ const Statistics = () => {
 
           <div className="text-center min-w-[150px] md:min-w-[110px] sm:min-w-0">
             <span className="text-[53px] md:text-[30px] sm:text-[18px] leading-[60px] md:leading-[40px] sm:leading-[30px] mb-2">
-              +<Counter end={300} />
+              +<Counter end={180} />
             </span>
             <div className="flex items-center gap-2 opacity-50 justify-center text-2xl md:text-lg sm:text-sm">
               <IoStarOutline />

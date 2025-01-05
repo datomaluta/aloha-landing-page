@@ -93,8 +93,7 @@ const Contact = () => {
             <h2 className="text-2xl font-medium my-7 md:text-lg md:my-4">
               {t("phone")}
             </h2>
-            <p className="text-gray-500">+995 598 455 677</p>
-            <p className="text-gray-500">+995 598 544 899</p>
+            <p className="text-gray-500">+995 571 332 233</p>
           </div>
           <div className="max-w-[370px] w-full bg-contact-gradient shadow-xl px-10 py-16 lg:py-8 lg:px-6 flex flex-col items-center rounded-[20px]">
             <img
@@ -105,8 +104,7 @@ const Contact = () => {
             <h2 className="text-2xl font-medium my-7 md:text-lg md:my-4">
               {t("email")}
             </h2>
-            <p className="text-gray-500">Info@aloha.com</p>
-            <p className="text-gray-500">Support@aloha.com</p>
+            <p className="text-gray-500">info@tryaloha.io</p>
           </div>
         </div>
       </motion.section>

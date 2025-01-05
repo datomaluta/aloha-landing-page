@@ -11,8 +11,8 @@ const Hero = () => {
   const { t } = useTranslate();
   const { lang } = useSelector((state: RootState) => state.lang);
   return (
-    <section className="bg-hero-gradient text-white rounded-t-[12px] pt-[150px] pb-[300px] xl:pb-[400px] lg:pb-[200px] sm:pb-[100px] overflow-hidden relative min-h-screen">
-      <div className="max-w-[1440px] mx-auto 2xl:px-6">
+    <section className="bg-hero-gradient text-white rounded-t-[12px] pt-[150px]  pb-[300px] xl:pb-[400px] lg:pb-[200px] sm:pb-[100px] overflow-hidden relative min-h-screen big-screen:min-h-max px-32 lg:px-6">
+      <div className="max-w-[1440px] mx-auto  ">
         <div className="flex lg:flex-col items-center">
           <motion.div
             initial={{ opacity: 0, x: -150 }}

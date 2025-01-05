@@ -12,9 +12,7 @@ const DefaultLayout = ({ children }: { children: React.ReactNode }) => {
     >
       <ScrollToTop />
       <Header />
-      <main className="min-h-[50vh] max-w-[1920px] mx-auto overflow-hidden">
-        {children}
-      </main>
+      <main className="min-h-[50vh]  mx-auto overflow-hidden">{children}</main>
       {/* <footer>this is footer</footer> */}
       <Footer />
     </div>

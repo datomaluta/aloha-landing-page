@@ -26,7 +26,10 @@ const LanguageDropdown = () => {
             className={`px-2 py-1 hover:bg-secondary-tint w-full text-left rounded flex items-center justify-between ${
               lang === "en" ? "bg-secondary-tint" : ""
             }`}
-            onClick={() => dispatch(setLanguage("en"))}
+            onClick={() => {
+              dispatch(setLanguage("en"));
+              setDropdownIsOpen(false);
+            }}
           >
             English
             <FaCheck className={`${lang === "en" ? "block" : "hidden"}`} />
@@ -35,7 +38,10 @@ const LanguageDropdown = () => {
             className={`px-2 py-1 hover:bg-secondary-tint w-full text-left rounded flex items-center justify-between ${
               lang === "ka" ? "bg-secondary-tint" : ""
             }`}
-            onClick={() => dispatch(setLanguage("ka"))}
+            onClick={() => {
+              dispatch(setLanguage("ka"));
+              setDropdownIsOpen(false);
+            }}
           >
             ქართული
             <FaCheck className={`${lang === "ka" ? "block" : "hidden"}`} />

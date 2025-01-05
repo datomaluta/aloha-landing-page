@@ -3,12 +3,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
-import { useSelector } from "react-redux";
-import { RootState } from "./redux/store";
 
 function App() {
-
-
   return (
     <Routes>
       <Route path="/" element={<Home />} />

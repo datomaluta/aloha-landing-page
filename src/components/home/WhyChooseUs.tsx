@@ -18,19 +18,19 @@ const WhyChooseUs = ({
   const { t } = useTranslate();
   return (
     <section
-      className={`z-20 relative    ${
+      className={`z-20 relative  px-32 lg:px-6  ${
         about
           ? "bg-hero-gradient pt-[150px] py-20"
           : "bg-why-choose-us-gradient rounded-t-[30px] -mt-10 py-20 sm:py-10"
       } `}
     >
-      <div className="flex lg:flex-col gap-12 sm:gap-5 items-center max-w-[1440px] mx-auto px-6">
+      <div className="flex xl:flex-col gap-12 sm:gap-5 items-center max-w-[1440px] mx-auto">
         <motion.h1
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -150 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="text-[56px] lg:text-[40px] sm:text-[29px] px-10 xl:px-0 w-[45%] lg:w-full text-white font-semibold text-center sm:w-[70%]"
+          className="text-[56px] 2xl:text-[48px] lg:text-[40px] sm:text-[29px] px-10 xl:px-0 w-[45%] xl:w-full text-white font-semibold text-center sm:w-[70%]"
         >
           {t("why_should_you_choose_us")}
         </motion.h1>
@@ -39,13 +39,13 @@ const WhyChooseUs = ({
           initial={{ opacity: 0, x: 150 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className=" w-[55%] lg:w-full tracking-wider leading-[30px] px-10 lg:px-0 sm:text-sm sm:leading-[25px]"
+          className="w-[55%] xl:w-full xl:text-center tracking-wider leading-[30px] px-10 lg:px-0 sm:text-sm sm:leading-[25px]"
         >
           {t("why_should_you_choose_us_paragraph")}
         </motion.p>
       </div>
 
-      <div className="z-50 relative max-w-[1440px] mx-auto mt-20 flex items-center gap-32 xl:gap-16  2xl:px-6 xl:flex-col">
+      <div className="z-50 relative max-w-[1440px] mx-auto mt-20 flex items-center gap-32 xl:gap-16  xl:flex-col">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -150 }}
@@ -137,7 +137,7 @@ const WhyChooseUs = ({
           initial={{ y: 150 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true, amount: 0.3 }}
-          className="px-4 w-full 2xl:w-[90%] bg-secondary-tint max-w-[1440px] py-4 rounded mx-auto mt-20"
+          className="px-4 w-full 2xl:w-[90%] bg-secondary-tint max-w-[1440px] py-6 rounded mx-auto mt-20"
         >
           <PartnersCarousel />
         </motion.div>
