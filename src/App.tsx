@@ -7,8 +7,8 @@ import { useSelector } from "react-redux";
 import { RootState } from "./redux/store";
 
 function App() {
-  const { lang } = useSelector((state: RootState) => state.lang);
-  console.log(lang);
+
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />
