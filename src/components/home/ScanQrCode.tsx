@@ -9,7 +9,7 @@ const ScanQrCode = () => {
   const { t } = useTranslate();
   return (
     <section className="py-20 relative bg-scan-qr-gradient px-32 lg:px-6">
-      <div className="flex lg:flex-col-reverse gap-16 max-w-[1440px] mx-auto  relative z-30 ">
+      <div className="flex items-center lg:flex-col-reverse gap-16 max-w-[1440px] mx-auto  relative z-30 ">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -150 }}
@@ -28,7 +28,7 @@ const ScanQrCode = () => {
           initial={{ opacity: 0, x: 150 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true, amount: 0.3 }}
-          className="w-1/2 lg:w-full mt-24 lg:mt-0"
+          className="w-1/2 lg:w-full  lg:mt-0"
         >
           <div className="w-[80%] mx-auto xl:w-full">
             <h1 className="font-semibold text-[37px] sm:text-[29px] text-center flex flex-col uppercase gap-0 leading-[50px] sm:leading-[29px] mb-10">

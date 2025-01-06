@@ -1,7 +1,9 @@
+import { useSelector } from "react-redux";
 import faqImg from "../../assets/images/faqs/faqImg.png";
 import { useTranslate } from "../../hooks/useTranslate";
 import Accordion from "../ui/accordion/Accordion";
 import { motion } from "framer-motion";
+import { RootState } from "../../redux/store";
 
 const faqs = [
   {
@@ -47,8 +49,13 @@ const faqs = [
 ];
 const Faqs = () => {
   const { t } = useTranslate();
+  const { lang } = useSelector((state: RootState) => state.lang);
   return (
-    <section className="py-20 px-32 lg:px-6 bg-faq-section-gradient pb-[500px] md:pb-[600px]">
+    <section
+      className={`py-20 px-32 lg:px-6 bg-faq-section-gradient pb-[500px] md:pb-[600px] ${
+        lang === "ka" && "xl:pb-[700px]  md:pb-[750px]"
+      }`}
+    >
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 150 }}
@@ -65,7 +72,7 @@ const Faqs = () => {
           initial={{ opacity: 0, x: -150 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true, amount: 0.5 }}
-          className="w-[40%] lg:hidden mt-auto"
+          className="w-[40%] lg:hidden my-auto"
         >
           <img src={faqImg} alt="faq" />
         </motion.div>
