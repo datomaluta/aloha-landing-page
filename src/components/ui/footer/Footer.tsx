@@ -1,12 +1,13 @@
 import whiteLogo from "./../../../assets/images/logo-white.svg";
 import { Link } from "react-router-dom";
-import { FaFacebookF, FaInstagram } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
 import { useSelector } from "react-redux";
 import { RootState } from "../../../redux/store";
 import { useTranslate } from "../../../hooks/useTranslate";
 import LanguageDropdown from "./LanguageDropdown";
+import facebookIcon from "./../../../assets/images/footer/facebook.svg";
+import linkedinIcon from "./../../../assets/images/footer/linkedin.svg";
+import instagramIcon from "./../../../assets/images/footer/instagram.svg";
+import twitterIcon from "./../../../assets/images/footer/x.svg";
 
 const Footer = () => {
   const { lang } = useSelector((state: RootState) => state.lang);
@@ -93,21 +94,19 @@ const Footer = () => {
 
             <div className="lg:mt-6 md:hidden">
               <div className="flex gap-4">
-                <div className="bg-blue-500 w-max p-2 rounded-full">
-                  <FaFacebookF />
-                </div>
-                <Link
-                  target="_blank"
-                  to={"https://www.linkedin.com/company/aloha-app/"}
-                  className="bg-blue-500 w-max p-2 rounded-full"
-                >
-                  <FaLinkedin />
-                </Link>
-                <div className="bg-blue-500 w-max p-2 rounded-full">
-                  <BsTwitterX />
-                </div>
-                <div className="bg-blue-500 w-max p-2 rounded-full">
-                  <FaInstagram />
+                <div className="flex gap-4">
+                  <Link to={"/"}>
+                    <img className="h-8" src={facebookIcon} alt="facebook" />
+                  </Link>
+                  <Link to={"/"}>
+                    <img className="h-8" src={linkedinIcon} alt="linkedin" />
+                  </Link>
+                  <Link to={"/"}>
+                    <img className="h-8" src={twitterIcon} alt="x" />
+                  </Link>
+                  <Link to={"/"}>
+                    <img className="h-8" src={instagramIcon} alt="instagram" />
+                  </Link>
                 </div>
               </div>
               <div className="pb-10">
@@ -118,18 +117,18 @@ const Footer = () => {
 
           <div className="hidden md:block mt-10">
             <div className="flex gap-4">
-              <div className="bg-blue-500 w-max p-2 rounded-full">
-                <FaFacebookF />
-              </div>
-              <div className="bg-blue-500 w-max p-2 rounded-full">
-                <FaLinkedin />
-              </div>
-              <div className="bg-blue-500 w-max p-2 rounded-full">
-                <BsTwitterX />
-              </div>
-              <div className="bg-blue-500 w-max p-2 rounded-full">
-                <FaInstagram />
-              </div>
+              <Link to={"/"}>
+                <img className="h-8" src={facebookIcon} alt="facebook" />
+              </Link>
+              <Link to={"/"}>
+                <img className="h-8" src={linkedinIcon} alt="linkedin" />
+              </Link>
+              <Link to={"/"}>
+                <img className="h-8" src={twitterIcon} alt="x" />
+              </Link>
+              <Link to={"/"}>
+                <img className="h-8" src={instagramIcon} alt="instagram" />
+              </Link>
             </div>
             <div className="pb-10">
               <LanguageDropdown />
