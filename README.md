@@ -6,7 +6,7 @@
 
 ### Screenshot
 
-![](./src/assets/app-screenshot.jpg)
+![](./src/assets/images/app-screenshot.jpg)
 
 This is Aloha's Responsive Landing Page
 
